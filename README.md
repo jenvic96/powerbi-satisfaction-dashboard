@@ -64,7 +64,16 @@ This Power BI dashboard analyzes customer satisfaction and purchasing behavior d
 
 Data was cleaned and transformed in **Power Query** before loading into the dashboard.
 
-**Conditional Column added to expand gender codes:**
+**1. Changed column data types to Whole Number:**
+```powerquery
+= Table.TransformColumnTypes(Source, {
+    {"Edad", Int64.Type},
+    {"Satisfacción (1-5)", Int64.Type},
+    {"Frecuencia de Compra (mensual)", Int64.Type}
+})
+```
+
+**2. Conditional Column added to expand gender codes:**
 ```powerquery
 = Table.AddColumn(#"Changed Type", "Genero Completo", each if [Género] = "F" then "Femenino" else "Masculino")
 ```
