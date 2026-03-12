@@ -1,6 +1,6 @@
 # 📊 Análisis de Satisfacción y Comportamiento de Compra
 
-![Dashboard Preview](Screenshot_2026-03-11_at_11_12_37_PM.png)
+![Dashboard Preview](powerbidashboard.png)
 
 ---
 
@@ -78,7 +78,7 @@ This Power BI dashboard analyzes customer satisfaction and purchasing behavior d
 |------|-------------|
 | `Lab_3_Jennifer_Arriola.pbix` | Power BI dashboard file |
 | `BD_Encuesta_Satisfacción.csv` | Raw dataset |
-| `Screenshot_2026-03-11.png` | Dashboard preview |
+| `powerbidashboard.png` | Dashboard preview |
 
 ---
 
