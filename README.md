@@ -1,6 +1,6 @@
 # 📊 Análisis de Satisfacción y Comportamiento de Compra
 
-![Dashboard Preview](powerbidashboard.png)
+![Dashboard Preview](pbidb.png)
 
 ---
 
@@ -149,7 +149,7 @@ This transformed the raw `M/F` values into full Spanish labels (`Masculino/Femen
 |------|-------------|
 | `Lab_3_Jennifer_Arriola.pbix` | Power BI dashboard file |
 | `BD_Encuesta_Satisfacción.csv` | Raw dataset |
-| `powerbidashboard.png` | Dashboard preview |
+| `pbidb.png` | Dashboard preview |
 
 ---
 
