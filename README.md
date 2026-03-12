@@ -60,7 +60,20 @@ This Power BI dashboard analyzes customer satisfaction and purchasing behavior d
 
 ---
 
-## 🛠️ Tools Used
+## 🔄 ETL Process
+
+Data was cleaned and transformed in **Power Query** before loading into the dashboard.
+
+**Conditional Column added to expand gender codes:**
+```powerquery
+= Table.AddColumn(#"Changed Type", "Genero Completo", each if [Género] = "F" then "Femenino" else "Masculino")
+```
+
+This transformed the raw `M/F` values into full Spanish labels (`Masculino/Femenino`) for cleaner dashboard visuals.
+
+---
+
+
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
