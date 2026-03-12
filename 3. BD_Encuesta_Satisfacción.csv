@@ -1,0 +1,17 @@
+Cliente,Edad,Género,Satisfacción (1-5),Frecuencia de Compra (mensual),Ingreso Mensual (USD),Tipo de Producto Favorito,Método de Pago Preferido
+A,25,F,4,3,3000,Electrónica,Tarjeta
+B,30,M,5,2,4500,Hogar,Efectivo
+C,22,F,3,1,2800,Entretenimiento,Online
+D,35,M,4,4,5200,Electrónica,Tarjeta
+E,28,F,2,1,3200,Hogar,Efectivo
+F,40,M,3,5,6000,Electrónica,Online
+G,23,F,5,2,3100,Entretenimiento,Tarjeta
+H,31,M,4,3,4800,Hogar,Efectivo
+I,26,F,1,1,2700,Electrónica,Online
+J,29,M,2,4,4300,Entretenimiento,Tarjeta
+K,33,F,4,3,3400,Hogar,Efectivo
+L,27,M,3,2,3900,Electrónica,Online
+M,24,F,5,4,3500,Entretenimiento,Tarjeta
+N,36,M,2,5,5600,Hogar,Efectivo
+O,38,F,4,3,4700,Electrónica,Online
+P,32,M,3,1,4400,Entretenimiento,Tarjeta
